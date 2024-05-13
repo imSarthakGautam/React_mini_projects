@@ -35,21 +35,22 @@ npm start <--or-->
 
 
 * METHOD 2
-Vite- react bundler
+# Vite- react bundler
 through this we make react app
 
--no node modules initially ?
+-Unlike in create-react app there are no node modules initially.
+So we have to :
 # npm i
 or npm install
 
 # npm run dev
 
 
-index.html
--Main Single page of application 
+- index.html
+Main Single page of application 
 
-index.js or main.js
-- entry pt of react
+- index.js or main.js
+entry pt of react
 
 
 * package .json
