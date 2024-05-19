@@ -94,3 +94,6 @@ content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 ```
+
+### React Props
+- arguments passed into React components, Every parent component can pass some information to its child components by giving them props.
