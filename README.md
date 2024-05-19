@@ -8,7 +8,7 @@ React is a library it consists of :
 
 
  * METHOD 1
-# npx create-react-app
+# `npx create-react-app`
 - basic method of creating React app.
 - It's a slower method however.
 
@@ -24,7 +24,7 @@ Ackronyms :
 
 - to run the project - start script
 npm start <--or-->
-# npm run start
+# `npm run start`
 
 [Note: react has SEO problem ]
 
@@ -41,9 +41,9 @@ through this we make react app
 - Unlike in create-react app there are no node modules initially.
 So we have to :
 # npm i
-or npm install
+or `npm install`
 
-# npm run dev
+## `npm run dev`
 
 
 - index.html :  
@@ -77,12 +77,13 @@ Eg: Updates like animation have different priorities than textual changes
 - `npm install -D tailwindcss postcss autoprefixer` :
 _-D refers to dev Dependencies_
 
-- npx tailwind init -p:
+- `npx tailwind init -p`:
 forms _tailwind.config.js_ file
 
 ## Had error of not loading tailwind css initially 
 - in tailwind.config.js :
-```content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+```
+content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 ```
 -_this line solved my error_
 
