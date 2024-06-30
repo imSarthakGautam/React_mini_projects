@@ -1,5 +1,14 @@
 # context API
 
+1. why do you need a context ?  Why context over props ? 
+2. what do you need inside a context ? 
+3. How do you create a context ?
+4. What are the main components of the Context API? 
+5. How do I provide a context to components in React ?
+6. What do you mean by consuming a context ?
+7. How do I consume a context in a React component?
+
+
 ### what is context in react ?
 - In React, a context is a way to manage and share state (or other data) across different components without having to pass props manually at every level.
 
@@ -23,3 +32,6 @@ The Consumer component is used to "consume" the context value. It allows any com
 ### useContext Hook:
 
 The *useContext* hook is a more modern and convenient way to consume context values in functional components.
+
+
+
