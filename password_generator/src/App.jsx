@@ -30,7 +30,7 @@ function App() {
 
   },[length,numberAllowed, charAllowed, setPassword])
 
-
+  
   //copying the generated password to clipboard
   const copyPasswordToClipboard=useCallback(()=>{
     passwordRef.current?.select()

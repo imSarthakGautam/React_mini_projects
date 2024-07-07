@@ -3,12 +3,12 @@ This is the repository consisting of working with React.
 and my self React notes.
 
 React is a library it consists of :
-- react-dom - for web workings
-- react-native - for mobile workings
+- `react-dom` - for web workings
+- `react-native` - for mobile workings
 
 
  * METHOD 1
-# `npx create-react-app`
+### `npx create-react-app`
 - basic method of creating React app.
 - It's a slower method however.
 
@@ -18,13 +18,13 @@ Ackronyms :
 - npx: node package executor
 - create-react-app :utility
 
-# package.json
+### package.json
 - entry point of react project
 - has name of project, version, dependencies, scripts ( run the project, start, build, test) & browserlist.
 
 - to run the project - start script
 npm start <--or-->
-# `npm run start`
+### `npm run start`
 
 [Note: react has SEO problem ]
 
@@ -35,15 +35,15 @@ npm start <--or-->
 
 
 * METHOD 2
-# Vite- react bundler
+### Vite- react bundler
 through this we make react app
 
 - Unlike in create-react app there are no node modules initially.
 So we have to :
-# npm i
+### npm i
 or `npm install`
 
-## `npm run dev`
+#### `npm run dev`
 
 
 - index.html :  
@@ -63,13 +63,7 @@ entry pt of react
 - Few libraries force you to have .jsx in components
 
 
-# React Hooks:
-React controls updation of variables to be seen in UI
 
-# Virtual DOM and React Fiber
-Virtual DOM is replica of actual DOM
-Stops instantenous reloading/re-rendering of page for minor changes in a page, since not every update has to be applied immediately.
-Eg: Updates like animation have different priorities than textual changes
 
 
 ### Configuring Tailwind
@@ -80,7 +74,7 @@ _-D refers to dev Dependencies_
 - `npx tailwind init -p`:
 forms _tailwind.config.js_ file
 
-## Had error of not loading tailwind css initially 
+### Had error of not loading tailwind css initially 
 - in tailwind.config.js :
 ```
 content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -97,3 +91,21 @@ content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 
 ### React Props
 - arguments passed into React components, Every parent component can pass some information to its child components by giving them props.
+- passed inside the curly braces {}
+
+### React Components
+- reusuable portions of code that represents a part of a user interface. Components are used to render, manage, and update the UI elements
+- export default function _ComponentName_(){}
+- Here, default represents the main function of the component.
+
+### Virtual DOM and React Fiber
+Virtual DOM is replica of actual DOM
+Stops instantenous reloading/re-rendering of page for minor changes in a page, since not every update has to be applied immediately.
+Eg: Updates like animation have different priorities than textual changes
+
+## React Hooks
+
+- useState
+- useCallback
+- useRef
+- useEffect

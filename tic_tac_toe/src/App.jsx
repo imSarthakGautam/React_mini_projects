@@ -1,11 +1,15 @@
 import Board from "./components/Board"
-import Square from "./components/Square"
+import "./App.css"
+
 
 function App() {
   
 
-  return (
+  return (<>
+    <div> I'm inside app.jsx </div>
+    {console.log("app.jsx")}
    <Board />
+   </>
   )
 }
 

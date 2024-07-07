@@ -21,6 +21,11 @@ addTodo, deleteTodo, updateTodo, toggleComplete
 
 4. LOCAL STORAGE
 
+5. Components making
+
+6. Rendering each components.
+
+
 
 
 
