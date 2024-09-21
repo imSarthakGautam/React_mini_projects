@@ -70,7 +70,6 @@ The `App.js` file is often the main component of a React application, serving as
    export default App;
     ```
 2. **Composition:** App.js often composes other components, allowing for a modular design. This helps in organizing the application and reusing components.
-    ```
 
 ```javascript
 import React from 'react';
