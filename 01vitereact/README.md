@@ -1,4 +1,4 @@
-# React + Vite
+# Flow of React Project Structure
 
 ## Understanding `package.json`
 
