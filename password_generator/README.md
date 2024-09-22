@@ -1,5 +1,13 @@
 # React + Vite
 
+This is a react app that generates a unique password on click everytime
+Here it utilizes React Hooks like:
+- useState
+- useEffect
+- useCallback
+- useRef
+cd
+###
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
