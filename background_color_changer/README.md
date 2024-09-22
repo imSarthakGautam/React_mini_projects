@@ -1,5 +1,9 @@
 # React + Vite
+This is a simple Background Color Changer application.
+Utilizes useState with the state Variable being name of the color.
 
+
+###
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
